@@ -1,6 +1,9 @@
 [variables]
 NODE_ENV = "production"
 
+[start]
+cmd = "npm ci --omit=dev"
+
 [build]
 builder = "nixpacks"
 buildCommand = "npm install && npm run build"
