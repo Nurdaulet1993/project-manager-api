@@ -8,8 +8,7 @@
         "install": {
           "dependsOn": ["setup"],
           "cmds": [
-            "npm ci --omit=dev",
-            "npm run build"
+            "npm ci --omit=dev"
           ]
         }
       }
