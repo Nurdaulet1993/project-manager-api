@@ -2,9 +2,8 @@
 NODE_ENV = "production"
 
 [build]
-install = "npm ci --omit=dev"
 builder = "nixpacks"
-buildCommand = "npm run build"
+buildCommand = "npm install && npm run build"
 
 [deploy]
 startCommand = "npm run start:prod"
