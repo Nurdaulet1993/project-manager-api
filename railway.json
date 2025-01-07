@@ -8,7 +8,7 @@
         "install": {
           "dependsOn": ["setup"],
           "cmds": [
-            "npm ci --omit=dev"
+            "npm ci --omit=dev --legacy-peer-deps"
           ]
         }
       }
