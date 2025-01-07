@@ -5,7 +5,7 @@ NODE_ENV = "production"
 installCommand = "npm ci --omit=dev"
 
 [build]
-builder = "nixpacks"
+builder = "heroku"
 buildCommand = "npm install && npm run build"
 
 [deploy]
